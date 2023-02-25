@@ -1,0 +1,727 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.Top_header {
+    padding: 10px 0px;
+    background-color: rgb(21, 21, 27);
+}
+
+.Top_header_cont {
+    display: flex;
+    color: white;
+    align-items: baseline;
+}
+
+.Top_header_cont i {
+    font-size: 13px;
+    margin-right: 3px;
+    font-weight: 500;
+}
+
+.Top_header_cont a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Top_header_cont p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Top_header_cont span {
+    margin: 0px 4px;
+}
+
+header {
+    background-color: rgb(28, 28, 35);
+    padding: 5px 0px;
+}
+
+header img {
+    width: 50%;
+    margin-right: 45px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 0px 6px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 102, 102);
+}
+
+.header_icon {
+}
+
+.header_icon ul {
+    display: flex;
+    list-style: none;
+}
+
+.header_icon ul li {
+    margin-left: 15px;
+}
+
+.header_icon ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    background-image: url("../images/banner bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner_cont {
+    color: white;
+    height: 100vh;
+    align-items: center;
+}
+
+.banner_cont h5 {
+    color: rgb(255, 102, 102);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner_cont h1 {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.banner_cont span {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin: 2px;
+}
+
+.banner_cont p {
+    font-size: 15px;
+    margin-top: 35px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.btn_banner {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 15px 35px;
+    margin-top: 40px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.btn_banner:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.choose_us {
+    padding: 70px 0px;
+}
+
+.choose_us h5 {
+    color: rgb(211, 13, 13);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.choose_us h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.choose_us h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.choose_us p {
+    font-size: 16px;
+    margin: 20px 0px 5px;
+}
+/* Practice Areas End */
+.practice_areas {
+    padding: 70px 0px;
+    background-color: rgb(250, 245, 245);
+}
+
+.practice_areas_top {
+}
+
+.practice_areas_top img {
+    width: 50px;
+}
+
+.practice_areas_top h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.practice_areas_top p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.practice_areas_item {
+    padding: 40px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ededed;
+}
+
+.practice_areas_item img {
+    width: 100px;
+}
+
+.practice_areas_item h2 {
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.practice_areas_item p {
+    font-size: 16px;
+}
+/* Practice Areas End */
+.Services{
+    background-image: url(../images/Service\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    position: relative;
+}
+.Services::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .7;
+}
+.Services_cont{
+    z-index: 1;
+}
+.Services_cont h5{
+
+color: #f66;
+
+font-size: 16px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+}
+.Services_cont h1{
+    
+color: #fff;
+    
+font-size: 40px;
+    
+text-transform: uppercase;
+    
+letter-spacing: 1px;
+    
+margin-bottom: 20px;
+}
+.Services_cont span{
+    
+display: block;
+    
+width: 100px;
+    
+height: 2px;
+    
+background: rgb(255, 255, 255);
+    
+margin: 2px auto;
+}
+.Services_cont p{
+    
+font-size: 16px;
+    
+margin-top: 30px;
+}
+.btn_Services {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 15px 35px;
+    margin-top: 50px;
+    transition: all 0.4s ease-in-out 0s;
+}
+.btn_Services:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+.case_section{
+    padding: 70px 0;
+}
+.testimonial_head{
+
+}
+.testimonial_head h2{
+
+color: #000;
+
+font-size: 25px;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+margin: 25px 0;
+}
+
+.testimonial{text-align: center;}
+.testimonial h1{
+    
+font-size: 80px;
+}
+.testimonial_text p{
+
+font-size: 21px;
+
+background: #F4F4F4;
+
+padding: 25px;
+
+margin-bottom: 30px;
+}
+.testimonial_pepole{display: flex;align-items: center;justify-content: center;}
+.testimonial_pepole img{width: 80px;border: 1px solid #fff;border-radius: 50px;margin-right: 15px;}
+.testimonial_pepole h5{
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.testimonial_pepole h6{
+    
+color: #d30d0d;
+    
+font-size: 12px;
+    
+margin-right: 19px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 12%;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin: 4px;
+}
+.owl-dots .owl-dot.active span{
+    background-color:#c6ccd0 ;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -12%;
+    transform: translateX(-50%);
+}
+.form_right{
+
+
+}
+.form_right h2{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+.form-control{
+    border: none;
+    padding: 0;
+}
+.form-control{
+
+}
+.form-control input{
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 15px;
+    height: auto;
+    background: #F9F9F9;
+    margin-top: 20px;
+    outline: none;
+}
+.form-control textarea{
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    height: 150px;
+    padding: 15px;
+    background: #F9F9F9;
+    margin-top: 20px;
+    outline: none;
+}
+.form-control input[type="submit"]{
+    background-color: #D30D0D;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    height: 41px;
+    width: 160px;
+    margin-top: 20px;
+    line-height: 14px;
+    transition: .4s all ease-in-out;
+}
+.form-control input[type="submit"]:hover{
+    background-color: black;
+
+}
+.form_frist{
+    width: 48%;
+
+}
+.form_last{
+    width: 48%;
+
+}
+.form_main{
+    display: flex;
+    justify-content: space-between;
+}
+.our_attorneys_item{
+    padding: 20px;
+    background-color: #fff;
+}
+.our_attorneys{
+    padding: 70px 0;
+    background-color: #F5F5F5;
+}
+.our_attorneys h2{
+
+font-weight: 600;
+
+margin-top: 15px;
+
+color: #333;
+
+line-height: 1.4;
+
+text-transform: uppercase;
+
+font-size: 20px;
+}
+.our_attorneys h6{
+
+color: #d30d0d;
+
+font-size: 14px;
+
+font-weight: 400;
+
+margin-top: 8px;
+
+margin-bottom: 15px;
+}
+.our_attorneys p{
+
+font-size: 18px;
+}
+.attorneys_icon{
+
+}
+.attorneys_icon ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.attorneys_icon ul li {
+    margin-left: 15px;
+}
+
+.attorneys_icon ul li a {
+    color: #333;
+}
+.news{
+    padding: 70px 0;
+}
+.news_cont{
+
+background: #F5F5F5;
+
+padding: 20px;
+
+text-align: center;
+}
+.news_cont a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+    
+color: #333333;
+    
+font-weight: 500;
+}
+.news_cont p{
+    
+margin-top: 5px;
+    
+font-size: 15px;
+    
+line-height: 25px;
+}
+.lear_more{border-bottom: 1px solid #333333;}
+.news_main{
+    display: flex;
+    justify-content: space-between;
+}
+.news_main img{
+    width: 100%;
+}
+.owl-carousel .owl-item .news_main img {
+    display: block;
+    width: 100%;
+}
+.news-pd{
+    padding: 0 20px;
+}
+
+.justice_footer_logo{
+
+}
+
+.justice_footer_logo img{
+    
+width: 65%;
+}
+
+.justice_footer_logo p{
+    color: #fff;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: inherit;
+    font-weight: inherit;
+    letter-spacing: .1px;
+    margin: 15px 0px 20px 0px;
+}
+
+.justice_footer_logo ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.justice_footer_logo ul li{
+    list-style: none;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.justice_footer_logo ul li i{
+    color: #d30d0d;
+    font-size: 14px;
+}
+
+.justice{
+    padding: 80px 0px 70px 0px;
+    background: #1c1c23;
+}
+
+.justice_information_support{
+    
+}
+
+.justice_information_support h4{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.justice_information_support ul{
+    margin-top: 20px;
+}
+
+.justice_information_support ul li{
+    list-style: none;
+    margin-top: 7px;
+}
+
+.justice_information_support ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.justice_information_support ul li a span{
+    font-weight: normal;
+}
+
+.justice_newsletter{
+
+}
+
+.justice_newsletter h4{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.justice_newsletter p{
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.justice_newsletter form{
+    background: #fff;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.justice_newsletter form input[type="email"]{
+    height: 100%;
+    width: 83%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0px 15px;
+}
+
+.justice_newsletter form input::placeholder{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.justice_newsletter form input[type="submit"]{
+    background: red;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    color: #fff;
+    padding: 10px 18px;
+    line-height: 1px;
+    font-weight: 500;
+}
+
+.justice_newsletter .checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.justice_newsletter .checkbox input[type="checkbox"]{
+    display: inline-block;
+    background-color: #ffffff30;
+    border: 1px solid #bbb;
+    line-height: 0;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin: -3px 10px 0 0;
+    outline: 0;
+    text-align: center;
+    vertical-align: middle;
+    clear: none;
+    cursor: pointer;
+    transition: .05s border-color ease-in-out;
+}
+
+.justice_newsletter .checkbox p{
+    margin: 0;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+footer{
+    padding: 20px 0px;
+    background: #15151b;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
